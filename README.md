@@ -5,4 +5,4 @@
 - JUAN DAVID NARVAEZ TORRES
 - DIOGO RODRIGUEZ ACEVEDO
 
-Produccioón: https://linear-dynamic-system.netlify.app/
+Producción: https://linear-dynamic-system.netlify.app/
