@@ -6,10 +6,10 @@ import "./main.css";
 import Input from "./components/Input/Input";
 
 function App() {
-  const [a1, setA1] = useState(1);
-  const [b1, setB1] = useState(2);
-  const [a2, setA2] = useState(-3);
-  const [b2, setB2] = useState(4);
+  const [a1, setA1] = useState(0);
+  const [b1, setB1] = useState(0);
+  const [a2, setA2] = useState(0);
+  const [b2, setB2] = useState(0);
   const [result, setResult] = useState<string>("");
   const [graphData, setGraphData] = useState(null);
 
@@ -142,13 +142,11 @@ function App() {
             <p className="mx-1 font-semibold text-white">X' =</p>
             <Input
               variable="x"
-              value={a1}
               onChange={(e) => setA1(parseFloat(e.target.value))}
             />
             <p className="mx-1 font-semibold text-white">+</p>
             <Input
               variable="y"
-              value={b1}
               onChange={(e) => setB1(parseFloat(e.target.value))}
             />
           </div>
@@ -156,13 +154,11 @@ function App() {
             <p className="mx-1 font-semibold text-white">Y' =</p>
             <Input
               variable="x"
-              value={a2}
               onChange={(e) => setA2(parseFloat(e.target.value))}
             />
             <p className="mx-1 font-semibold text-white">+</p>
             <Input
               variable="y"
-              value={b2}
               onChange={(e) => setB2(parseFloat(e.target.value))}
             />
           </div>
